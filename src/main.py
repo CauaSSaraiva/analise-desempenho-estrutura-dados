@@ -9,7 +9,7 @@ ARQUIVO_PEQUENO = "conjunto_pequeno.txt"
 ARQUIVO_MEDIO = "conjunto_medio.txt"
 ARQUIVO_GRANDE = "conjunto_grande.txt"
 
-# Classes necessárias para os testes e questões
+# Classes necessárias para os testes
 class Node:
     """Representa um nó na Árvore Binária."""
     def __init__(self, valor):
@@ -514,7 +514,7 @@ if __name__ == "__main__":
     lista_m = Lista()
     lista_g = Lista()
     
-    # Instanciar as Listas Otimizadas ( QUESTÃO 4 )
+    # Instanciar as Listas Otimizadas
     lista_otimizada_p = ListaOtimizada()
     lista_otimizada_m = ListaOtimizada()
     lista_otimizada_g = ListaOtimizada()
@@ -707,8 +707,6 @@ if __name__ == "__main__":
     # print(f"tempo Conjunto GRANDE, valores NAO Existentes -> {time.perf_counter() - l_inicio_busca_ne_g:.6f}")
     
 
-
-    # ( Questão 4 )
     print(f"\nTempos de Buscas - LISTA OTIMIZADA")
     print("="*60)
     
